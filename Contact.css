@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+h1{
+    color:white;
+    margin-left: 35%;
+    font-style: bold;
+    font-style: italic;
+}
+
+p{
+    color: red;
+    font-style: italic;
+    margin-left: 10%;
+}
+nav.menu-nav ul li.botton{
+    display: inline-block;
+    margin-left: 50px;
+}
+nav.menu-nav ul li.botton{
+    list-style-type: none;
+}
+nav.menu-nav ul li.botton a{
+    color: white;
+    background-color: rgb(245, 30, 30);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    position: center;
+}
+
+nav.menu-nav ul li.botton:hover a{
+    color: red;
+    transition: 0,3s; all;
+    border-radius: 10%; 
+    cursor: pointer;
+  }
+  body{
+	margin-top: 30px;
+	padding: 0px;
+	position:absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+
+
+}
+
+form{
+	border-radius: 5px;
+	padding:30px ;
+	background-color: rgb(241, 34, 34);
+	size: 20px
+}
+form h1{
+	font-size: 20px;
+}
+form .separation{
+	width: 100%;
+	height: 1px;
+	background-color: white;
+
+}
+form .corps-formulaie{
+	margin-top: 15px;
+	display: flex;
+	
+}
+div .groupe{
+	position: relative;
+	margin-top: 15px;
+	display: flex;
+	flex-direction:column ;
+	transition: 0,3s; all;  
+}
+input{
+	border: 1px solid red
+	padding:10px 5px 10px 30px ;
+	margin-top: 5px;
+	outline:red
+    
+   }
+   form label{
+       color: white;
+   }
+   form i{
+color: white;
+   }
+   form droite .groupe pieds-fromulaire{
+       margin: 20px;
+   }
+   footer h2{
+       color:white;
+       margin-top: 30% ;
+   }
+   footer p{
+       color: white;
+   }

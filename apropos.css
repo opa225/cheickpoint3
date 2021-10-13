@@ -1,0 +1,48 @@
+
+
+p{
+    color: white
+    font-style: italic;
+    margin-left: 10%;
+}
+nav.menu-nav ul li.botton{
+    display: inline-block;
+    margin-left: 50px;
+}
+nav.menu-nav ul li.botton{
+    list-style-type: none;
+}
+nav.menu-nav ul li.botton a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    position: center;
+}
+
+nav.menu-nav ul li.botton:hover a{
+    color: red;
+    transition: 0,3s; all;
+    border-radius: 10%; all;
+}
+h2{
+    color: white;
+    margin-top: 30%;
+}
+footer h2{
+    color:white;
+    margin-top: 30% ;
+}
+footer p{
+    color: white;
+}
+body{
+    color: white;
+}
+img{
+    padding: 0%;
+    width: 30%;
+    margin-top: 0px;
+    
+}

@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+h1{
+    margin-left: 35%;
+    font-style: bold;
+    font-style: italic;
+}
+
+p{
+    font-style: italic;
+    margin-left: 10%;
+}
+nav.menu-nav ul li.botton{
+    display: inline-block;
+    margin-left: 50px;
+}
+nav.menu-nav ul li.botton{
+    list-style-type: none;
+}
+nav.menu-nav ul li.botton a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    position: center;
+}
+
+nav.menu-nav ul li.botton:hover a{
+    color: red;
+    transition: 0,3s; all;
+    border-radius: 10%; all;
+}
+h2{
+    color: white;
+    margin-top: 30%;
+}
+body{
+    color: white;
+}
